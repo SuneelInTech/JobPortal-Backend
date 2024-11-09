@@ -1,5 +1,5 @@
 # Job Portal Backend
-
+================
 ## Overview
 
 The Job Portal Backend is a robust Spring Boot application designed to manage job postings efficiently. It provides a comprehensive set of RESTful APIs for creating, retrieving, updating, and deleting job postings. The application utilizes PostgreSQL as its relational database for data persistence, ensuring reliable and scalable data management.
@@ -50,4 +50,12 @@ The application connects to a PostgreSQL database using the following configurat
 - **Password:** `Ksuneel143@` (replace with your actual credentials)
 
 You can configure these details in the `application.properties` file.
+
+## Getting Started
+
+1. Clone the repository to your local machine.
+2. Open the File in  `Intellij Ide` and Just reload , it will automatically install required dependencies.
+3. Connect the database with your credentials.
+4. Run the application using `Tomcat Server`.
+5. Set the port `8081` in `application.properties` if `localhost:8080` is failed to work.
 
